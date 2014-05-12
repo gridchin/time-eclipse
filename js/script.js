@@ -58,7 +58,3 @@ jQuery(document).ready(function(){
 	});
 	
 })
-
-// By the way, you can find a similar experiment 
-// with some different (and more complex) functionality at 
-// http://gridchin.com/experiments/time-eclipse-2/
