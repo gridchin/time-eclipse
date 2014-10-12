@@ -18,9 +18,7 @@
 		width:100%;
 	}
 	
-	body {	
-		font: 14px/1.6 'Open Sans', sans-serif;
-		color: #333;
+	body {
 		margin:0;
 		padding:0;
 		overflow: hidden;
@@ -399,69 +397,6 @@
 	}
 
 
-/*	Footer	
-	------	*/
-	
-	footer{
-		z-index: 5;
-		position: fixed;	
-		top: 40px;	
-		left: 45px;
-	}
-	
-	footer .share_btn{
-		position: absolute;
-		top: 0;
-		left: -5px;
-		width: 40px;
-		height: 40px;
-		background: transparent url('../img/share.svg') no-repeat center;
-		text-indent: -9999em;
-		display: block;
-		opacity: .6;
-	}
-	
-	footer .share_btn:hover{
-		opacity: 1;
-	}
-	
-	footer article{
-		display: none;
-		min-width: 275px;
-		min-height: 55px;
-	}
-	
-	footer header,
-	footer header a {	
-		color: rgba(244,242,229,.5);
-	}
-	
-	footer header a:hover {	
-		color: rgba(244,242,229,1);
-	}
-	
-	footer .fb-like {	
-		position: absolute;	
-		top: 34px;	
-		left: 0;
-		min-width: 90px;
-		max-height: 22px;
-		overflow: hidden;
-	}
-	
-	footer .twitter-share-button {	
-		position: absolute;	
-		top: 35px;
-		left: 100px;
-	}
-	
-	footer .github {	
-		position: absolute;	
-		top: 35px;	
-		left: 200px;
-	}
-	
-	
 /*	Mobile	
 	------	*/
 	
@@ -483,8 +418,4 @@
 		    		transform: scale(0.8);
 		}
 		
-		footer .share_btn{
-			display: none;
-		}
-	
 	}
