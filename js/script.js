@@ -46,15 +46,4 @@ jQuery(document).ready(function(){
 	
 	$('.face').after('<div class="center"></div>');
 	
-	$('.share_btn').click(function () {
-	    $(this).fadeOut(100);
-	    $('footer article').fadeIn(300);
-	    return false;
-	});
-
-	$('.night, .clock').click(function () {
-	    $('footer article').fadeOut(100);
-	    $('.share_btn').fadeIn(300);
-	});
-	
 })
